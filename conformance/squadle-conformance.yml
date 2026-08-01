@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.crunchtime.com/security
+note: >-
+  Squadle was acquired by Crunchtime and now operates as part of the Crunchtime
+  Operations Execution platform. Compliance posture below is published on the
+  Crunchtime security page, which states its audits cover all products (Squadle
+  included). No API-level standards (OAuth2/OIDC/RFC 9457/etc.) could be asserted
+  because Squadle publishes no OpenAPI or public API surface.
+standards:
+  - id: soc2-type2
+    conforms: true
+    evidence: >-
+      Crunchtime security page states "SOC 2 - Type 2 audits (for all products)",
+      which covers the Squadle product line.
+  - id: soc1-type2
+    conforms: true
+    evidence: >-
+      Crunchtime security page states "SOC 1 - Type 2 (for Crunchtime Inventory and
+      Labor)"; SOC 1 scoped to Inventory/Labor products.
+  - id: iso-27001
+    conforms: false
+  - id: pci-dss
+    conforms: false
+  - id: hipaa
+    conforms: false
+  - id: fedramp
+    conforms: false
+compliance_program:
+  published: true
+  url: https://www.crunchtime.com/security
+  certifications:
+    - SOC 2 Type 2
+    - SOC 1 Type 2
+  security_operations: "24/7 Security Operations Center; annual third-party risk assessments"
+  contact: hello@crunchtime.com
