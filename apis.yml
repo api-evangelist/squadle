@@ -63,6 +63,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/crunchtime/
+  name: Crunchtime
+  x-relationship: acquired
+  x-evidence: "Squadle was acquired by Crunchtime and now operates as part of the Crunchtime Operations Execution platform; the squadle."
 - type: Website
   url: https://squadle.com
 - type: Login
